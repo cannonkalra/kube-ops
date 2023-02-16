@@ -20,7 +20,7 @@ serviceAccount:
   # Annotations to add to the service account
   annotations: {}
   # The name of the service account to use.
-  # If not set and create is true, a name is generated using the fullname template
+  # If not set and create is true, a name is generated using the fullname template 
   name: "cherrybomb"
 
 podAnnotations: {}
@@ -63,10 +63,10 @@ resources: {}
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
 limits:
   cpu: 100m
-  memory: 128Mi
+  memory: 256Mi
 requests:
   cpu: 100m
-  memory: 128Mi
+  memory: 256Mi
 
 autoscaling:
   enabled: false
