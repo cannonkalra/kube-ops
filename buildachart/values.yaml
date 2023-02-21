@@ -11,7 +11,7 @@ image:
   tag: ""
 
 imagePullSecrets: []
-nameOverride: "cherry-awesome-app"
+nameOverride: "cherry-app"
 fullnameOverride: "cherry-chart"
 
 serviceAccount:
